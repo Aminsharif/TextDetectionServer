@@ -23,7 +23,7 @@ def readImage(img):
 
         bbox, text, score = t
 
-        return_text += text
+        return_text += " "+text +'\n'
 
     return return_text
 
